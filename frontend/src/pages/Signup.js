@@ -46,9 +46,9 @@ const Signup = () => {
             <span className="fa fa-eye-dropper" />
             <select value={role} onChange={(e) => setRole(e.target.value)} required style={{ width: '100%' }}>
               <option value="">Select Role</option>
-              <option value="Student">Student</option>
-              <option value="Entreprenuer">Entrepreneur</option>
-              <option value="Investor">Investor</option>
+              <option value="Student">Volunteers</option>
+              <option value="Entreprenuer">Non-Profit Organisations</option>
+              <option value="Investor">Investors</option>
             </select>
           </div>
           <button style={{ borderRadius: '2rem' }} disabled={isLoading} className="my-button bb blue">Sign up</button>
