@@ -194,12 +194,6 @@ useEffect(() => {
               <div class="underline"></div>
               <label for="">Category</label>
             </div>
-
-              // <div class="input-data">
-              //   <Form.Control type="text" required name="title" value={post.title} onChange={handleChange} />
-              //   <div class="underline"></div>
-              //   <label for="">Category</label>
-              // </div>
             </div>
             <div class="form-row">
               <div class="input-data">
