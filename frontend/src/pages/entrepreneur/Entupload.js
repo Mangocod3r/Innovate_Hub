@@ -169,8 +169,11 @@ useEffect(() => {
                 <label for="">Title</label>
               </div>
 
+              
               <div class="input-data">
+              <label for="category" className="dropdown-label">Category</label>
               <Form.Select
+                id="category"
                 required
                 name="title"
                 value={post.title}
@@ -192,8 +195,9 @@ useEffect(() => {
                 <option value="Charity Sports">Charity Sports</option>
               </Form.Select>
               <div class="underline"></div>
-              <label for="">Category</label>
             </div>
+
+          
             </div>
             <div class="form-row">
               <div class="input-data">
