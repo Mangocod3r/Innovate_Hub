@@ -284,9 +284,8 @@ const Home = (props) => {
           <h1 className="home-text31">
             {}
             <span>
-              Take your skills to new heights with Innovate Hub's innovation
-              community
-            </span>
+  Elevate your impact by joining Innovate Hub's community of volunteers, event organizers, and sponsors working together to create meaningful change.
+</span>
           </h1>
         </div>
       </div>
