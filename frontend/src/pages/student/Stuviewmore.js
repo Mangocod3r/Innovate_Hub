@@ -114,7 +114,7 @@ export default function Stuviewmore() {
           <InputGroup className='my-3 w-75 m-4'>
             <Form.Control className=" rounded-pill"
               onChange={(e) => setSearch(e.target.value)}
-              placeholder='Search project(s)'
+              placeholder='Search event(s)'
             />
           </InputGroup>
         </Form>
