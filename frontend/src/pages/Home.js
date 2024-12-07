@@ -185,13 +185,10 @@ const Home = (props) => {
               {}
             </h1>
             <span className="home-text15">
-              Are you looking for the next big thing? Our platform offers you a
-              unique opportunity to discover innovative projects submitted by
-              talented students. Upload your projects, connect with budding
-              entrepreneurs and potentially invest in the next game-changing
-              idea. Take the first step towards creating a successful future,
-              today
-            </span>
+  Are you passionate about creating lasting change? Our platform connects non-profit organizations with dedicated volunteers and generous sponsors, enabling collaboration on projects that make a real difference. 
+  Explore impactful initiatives, gain support from willing sponsors, and work alongside motivated volunteers to bring your mission to life. 
+  Take the first step towards fostering meaningful social change today.
+</span>
             <div className="home-container02">
               <button className="my-button  bb blue">Learn more</button>
             </div>
