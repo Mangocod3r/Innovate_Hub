@@ -4,8 +4,8 @@ import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend } from 'rec
 export default function Metrics() {
   const data = [
     { name: 'Total Funding Provided', funding: 100 },
-    { name: 'Success Rate of Funded Projects', successRate: 0.8 },
-    { name: 'Feedback from Entrepreneurs and Students', feedback: 4.5 },
+    { name: 'Satisfaction level of Event', successRate: 0.8 },
+    { name: 'Feedback from Event Organisers and Volunteers', feedback: 4.5 },
   ];
 
   const barSize = 40;
