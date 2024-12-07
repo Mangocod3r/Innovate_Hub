@@ -37,32 +37,34 @@ const post = fpost.filter(post => post.status === 'accepted')
 console.log(post)
 
   const renderCard = (cats, index) => {
+  // Split the message by new lines and render each part inside a <p> tag
+  const formattedMessage = cats.message.split('\n').map((line, i) => (
+    <p key={i}>{line}</p>
+  ));
 
-    return (
-      post &&
-      <tr>
-        <td>
-          <h2 className="text-center" style={{ color: '#0056D2' }}> {cats.projectName}</h2>
-          <div className="shadow p-3 mb-5 bg-red rounded">
-            <div>
-              <p className="overview_text">
-                {cats.message}
-              </p>
-              <p>
-                Amount invested: {cats.amount}
-              </p>
-              <div className="col">
-                <img src={cats.img} alt="" className="img-fluid p-4" style={{ borderRadius: '2.5rem' }} />
-              </div>
-              <p className="overview_text">By {cats.investor}</p>
-
+  return (
+    <tr key={index}>
+      <td>
+        <h2 className="text-center" style={{ color: '#0056D2' }}> {cats.projectName}</h2>
+        <div className="shadow p-3 mb-5 bg-red rounded">
+          <div>
+            <div className="overview_text">
+              {formattedMessage}
             </div>
+            <p>
+              Amount invested: {cats.amount}
+            </p>
+            <div className="col">
+              <img src={cats.img} alt="" className="img-fluid p-4" style={{ borderRadius: '2.5rem' }} />
+            </div>
+            <p className="overview_text">By {cats.name}</p>
           </div>
-        </td>
-      </tr>
-    );
+        </div>
+      </td>
+    </tr>
+  );
+};
 
-  };
 
   if (investments.length === 0) {
     return (
