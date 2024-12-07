@@ -168,11 +168,38 @@ useEffect(() => {
                 <div class="underline"></div>
                 <label for="">Title</label>
               </div>
+
               <div class="input-data">
-                <Form.Control type="text" required name="title" value={post.title} onChange={handleChange} />
-                <div class="underline"></div>
-                <label for="">Category</label>
-              </div>
+              <Form.Select
+                required
+                name="title"
+                value={post.title}
+                onChange={handleChange}
+              >
+                <option value="">Select Category</option>
+                <option value="Educational">Educational</option>
+                <option value="Fundraising">Fundraising</option>
+                <option value="Networking">Networking</option>
+                <option value="Conferences/Conventions">Conferences/Conventions</option>
+                <option value="Cultural & Arts">Cultural & Arts</option>
+                <option value="Community Engagement">Community Engagement</option>
+                <option value="Health and Wellness">Health and Wellness</option>
+                <option value="Celebratory">Celebratory</option>
+                <option value="Environmental">Environmental</option>
+                <option value="Holiday/Seasonal">Holiday/Seasonal</option>
+                <option value="Volunteer Days/Service Projects">Volunteer Days/Service Projects</option>
+                <option value="Awareness">Awareness</option>
+                <option value="Charity Sports">Charity Sports</option>
+              </Form.Select>
+              <div class="underline"></div>
+              <label for="">Category</label>
+            </div>
+
+              // <div class="input-data">
+              //   <Form.Control type="text" required name="title" value={post.title} onChange={handleChange} />
+              //   <div class="underline"></div>
+              //   <label for="">Category</label>
+              // </div>
             </div>
             <div class="form-row">
               <div class="input-data">
