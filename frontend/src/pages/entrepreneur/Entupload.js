@@ -157,9 +157,9 @@ useEffect(() => {
     <div class="ct-main" style={{ background: 'linear-gradient(115deg, #56d8e4 10%, #9f01ea 90%)' }}>
       <div class="container1" style={{ color: '#0056D2', backgroundColor: "#fff" }} ref={textRef} onChange={onChnage}>
       {uploadSuccess && (
-            <div className="success-message">Uploaded successfully!</div>
+            <div className="success-message">Hosted successfully!</div>
           )}
-        <div class="text">Upload here</div>
+        <div class="text">Host here</div>
         <Form action="#">
           <FormGroup>
             <div class="form-row">
