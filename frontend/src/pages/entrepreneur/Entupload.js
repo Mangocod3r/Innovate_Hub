@@ -166,12 +166,12 @@ useEffect(() => {
               <div class="input-data" >
                 <Form.Control type="text" required name="header" value={post.header} onChange={handleChange} />
                 <div class="underline"></div>
-                <label for="">Header</label>
+                <label for="">Title</label>
               </div>
               <div class="input-data">
                 <Form.Control type="text" required name="title" value={post.title} onChange={handleChange} />
                 <div class="underline"></div>
-                <label for="">Title</label>
+                <label for="">Category</label>
               </div>
             </div>
             <div class="form-row">
@@ -186,11 +186,30 @@ useEffect(() => {
                 <label for="">End Date </label>
               </div>
             </div>
+          <div class="form-row">
+              <div class="input-data">
+                <Form.Control type="text" required name="p1" value={post.p1} onChange={handleChange} />
+                <div class="underline"></div>
+                <label for="">Venue</label>
+              </div>
+              <div class="input-data">
+                <Form.Control type="text" required name="p2" value={post.p2} onChange={handleChange} />
+                <div class="underline"></div>
+                <label for=""> Time </label>
+              </div>
+            </div>
             <div class="form-row">
               <div class="input-data">
                 <Form.Control type="text" required name="overview" value={post.overview} onChange={handleChange} />
                 <div class="underline"></div>
                 <label for="">Location Link </label>
+              </div>
+            </div>
+          <div class="form-row">
+              <div class="input-data">
+                <Form.Control type="text" required name="sub" value={post.sub} onChange={handleChange} />
+                <div class="underline"></div>
+                <label for="">Overview </label>
               </div>
             </div>
 
