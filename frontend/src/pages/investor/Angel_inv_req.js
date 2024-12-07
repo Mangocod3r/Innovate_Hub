@@ -133,7 +133,7 @@ export default function Entresp() {
                       variant="outline-success"
                       style={{ borderRadius: '2rem' }}
                     >
-                      ACCEPT
+                      Accept volunteer
                     </button>
                   )}
                 </a>
@@ -146,7 +146,7 @@ export default function Entresp() {
                       variant="outline-success"
                       style={{ borderRadius: '2rem' }}
                     >
-                      REJECT
+                      Reject Volunteer
                     </button>
                   )}
                 </a>
