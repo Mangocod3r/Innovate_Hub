@@ -20,7 +20,7 @@ export default function Mentor() {
 
   return (
     <div>
-      <h2>Mentorship and Networking</h2>
+      <h2>Event Discussions</h2>
       {upcomingEvents.map(event => (
         <div key={event.id}>
           <h3>{event.title}</h3>
