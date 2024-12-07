@@ -144,7 +144,7 @@ export default function Stuknowmore() {
                                 value={catsup.my_idea}
                                 onChange={handleChange}
                                 style={{ marginBottom: "2rem" }}
-                                placeholder="Enter your idea here..."
+                                placeholder="Enter your skills which match with event..."
                             />
                             <Form.Control
                                 type="file"
