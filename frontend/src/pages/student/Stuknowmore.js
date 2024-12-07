@@ -117,7 +117,7 @@ export default function Stuknowmore() {
                         <div className="shadow p-3 mb-5 bg-red rounded box">
                             <div className="text-center">
                             </div>
-                            <h3 className='text-center p-2' style={{ color: "#0056F1" }}><em>Problem Statement</em> </h3>
+                            <h3 className='text-center p-2' style={{ color: "#0056F1" }}><em>Event Description</em> </h3>
                             <p className='prob_text'>
                                 {card.description}
                             </p>
@@ -162,7 +162,7 @@ export default function Stuknowmore() {
                                 variant="outline-success"
                                 style={{ borderRadius: '2rem' }}
                             >
-                                SUBMIT
+                                Submit
                             </button>
                         </div>
                     </Form>
