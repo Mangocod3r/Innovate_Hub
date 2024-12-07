@@ -113,7 +113,7 @@ const Home = (props) => {
         <div className="home-max-width1 max-width">
           <div className="home-content">
             <h1 className="home-title">
-              <span>Empowering Non-Profit Org, Investors, and Government Agencies to </span>
+              <span>Empowering Non-Profit Org, Investors, and Sponsors to </span>
               <br></br>
               {}
               {}
@@ -128,7 +128,7 @@ const Home = (props) => {
               <span> Together</span>
             </h1>
             <span className="home-description">
-  Connect with non-profits, investors, and government agencies to create impactful solutions, collaborate on meaningful initiatives, and drive positive change in communities and industries. 
+  Connect with non-profits, investors, and Sponsors to create impactful solutions, collaborate on meaningful initiatives, and drive positive change in communities and industries. 
   Together, let's empower innovation and build a sustainable future.
 </span>
             <div className="home-container01">
