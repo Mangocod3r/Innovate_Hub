@@ -34,7 +34,7 @@ const eventContent = (eventInfo) => {
 
   return (
     <div>
-      <h2>Pitch Event Schedule</h2>
+      <h2>Event Implementataion and Discussion</h2>
       <FullCalendar
         plugins={[dayGridPlugin]}
         initialView="dayGridMonth"
