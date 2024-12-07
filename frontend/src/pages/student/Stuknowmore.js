@@ -121,10 +121,18 @@ export default function Stuknowmore() {
                             <p className='prob_text'>
                                 {card.description}
                             </p>
-                            {card.overview && (
+                            {card.sub && (
+                            <div>
+                                <h4 style={{ color: "#0056F1" }}>Event Location: </h4>
+                                <p>{card.sub}</p>
+                            </div>
+                        )}
+
+                        {card.overview && (
                             <div className="embed-container" style={{ marginTop: '1rem' }}>
-                               <a href={card.overview} target="_blank" rel="noopener noreferrer">
-                                  View on Google Maps
+                                <h5 style={{ color: "#0056F1" }}>Location Details:</h5>
+                                <a href={card.overview} target="_blank" rel="noopener noreferrer">
+                                    View on Google Maps
                                 </a>
                             </div>
                         )}
