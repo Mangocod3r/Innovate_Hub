@@ -48,7 +48,7 @@ const Signup = () => {
               <option value="">Select Role</option>
               <option value="Student">Volunteers</option>
               <option value="Entreprenuer">Non-Profit Organisations</option>
-              <option value="Investor">Investors</option>
+              <option value="Investor">Sponsors</option>
             </select>
           </div>
           <button style={{ borderRadius: '2rem' }} disabled={isLoading} className="my-button bb blue">Sign up</button>
