@@ -121,11 +121,16 @@ export default function Stuknowmore() {
                             <p className='prob_text'>
                                 {card.description}
                             </p>
-                            {card.sub && (
+                            {card.p1 && (
                             <div>
                                 <h4 style={{ color: "#0056F1" }}>Event Location: </h4>
-                                <p>{card.sub}</p>
+                                <p>{card.p1}</p>
                             </div>
+                            <div>
+                                <h4 style={{ color: "#0056F1" }}>Time: </h4>
+                                <p>{card.p2}</p>
+                            </div>
+
                         )}
 
                         {card.overview && (
