@@ -270,7 +270,7 @@ const Home = (props) => {
               <div className="home-container06">
                 <span className="home-title3">Fund ideas </span>
                 <span className="home-text29">
-                  Join the movement of funding groundbreaking projects that have
+                  Join the movement of funding groundbreaking events that have
                   the potential to change the world
                 </span>
               </div>
