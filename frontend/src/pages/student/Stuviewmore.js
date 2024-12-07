@@ -75,7 +75,7 @@ export default function Stuviewmore() {
             <div className="col-lg-6">
               <h2 className="font-weight-bold text-center p-3 mt-5" style={{ color: '#0056D2' }}><em>{card.header}</em></h2>
               <p className=" text-center lh-base ml-4 overview_text">
-                {card.text}
+                {card.sub}
               </p>
               {}
 
