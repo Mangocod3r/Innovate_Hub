@@ -128,7 +128,7 @@ const Home = (props) => {
               <span> Together</span>
             </h1>
             <span className="home-description">
-  Connect with non-profits, investors, and Sponsors to create impactful solutions, collaborate on meaningful initiatives, and drive positive change in communities and industries. 
+  Connect with non-profit organisations, volunteers, and Sponsors to create impactful solutions, collaborate on meaningful initiatives, and drive positive change in communities and industries. 
   Together, let's empower innovation and build a sustainable future.
 </span>
             <div className="home-container01">
