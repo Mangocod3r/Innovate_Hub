@@ -135,12 +135,12 @@ export default function Entmain() {
           <div className="shadow p-3 mb-5 bg-red rounded main1">
             <div>
               <p className="overview_text">
-                {cats.overview}
+                {cats.sub}
               </p>
               <div className="display-5 text-center entbut">
                 <Link to={`/entresp/${cats.header}`}>
                   <button className="my-button bb blue s overview_button">
-                    SEE YOUR RESPONSES
+                    SEE VOLUNTEERS
                   </button>
                 </Link>
               </div>
