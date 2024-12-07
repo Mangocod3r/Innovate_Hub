@@ -190,7 +190,7 @@ useEffect(() => {
               <div class="input-data">
                 <Form.Control type="text" required name="overview" value={post.overview} onChange={handleChange} />
                 <div class="underline"></div>
-                <label for="">Overview </label>
+                <label for="">Location Link </label>
               </div>
             </div>
 
