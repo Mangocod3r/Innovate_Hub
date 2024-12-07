@@ -203,7 +203,7 @@ const Home = (props) => {
       >
         <div className="home-max-width3 max-width">
           <div className="home-content2">
-            <span className="home-text16 beforeHeading">STUDENT</span>
+            <span className="home-text16 beforeHeading">VOLUNTEER</span>
             <h1 className="home-text17">
               {}
               {}
