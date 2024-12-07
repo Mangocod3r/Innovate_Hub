@@ -95,7 +95,7 @@ console.log(cats);
       post &&
       <tr>
         <td>
-          <h2 className="text-center" style={{ color: '#0056D2' }}>RESPONSE {index + 1}</h2>
+          <h2 className="text-center" style={{ color: '#0056D2' }}>Response {index + 1}</h2>
           <div className="shadow p-3 mb-5 bg-red rounded">
             <div>
               <div className="text-right">
