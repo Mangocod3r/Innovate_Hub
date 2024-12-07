@@ -249,20 +249,20 @@ const Home = (props) => {
                 </span>
               </div>
             </div>
-            <div className="home-step1">
-              <div className="home-number1">
-                <span className="home-text26">2</span>
-              </div>
-              <div className="home-container05">
-                <span className="home-title2">
-                  Learn  &amp; upload by your field
-                </span>
-                <span className="home-text27">
-                  Learn, upload, and collaborate with like-minded individuals in
-                  your field to turn your ideas into reality.
-                </span>
-              </div>
-            </div>
+           <div className="home-step1">
+  <div className="home-number1">
+    <span className="home-text26">2</span>
+  </div>
+  <div className="home-container05">
+    <span className="home-title2">
+      Learn, Connect &amp; Contribute
+    </span>
+    <span className="home-text27">
+      Learn about various non-profit causes, connect with event organizers, and volunteer your time to impactful service events. Sponsors can also explore opportunities to fund and support initiatives that drive social change. Collaborate with like-minded individuals and make a meaningful impact in your community.
+    </span>
+  </div>
+</div>
+
             <div className="home-step2">
               <div className="home-number2">
                 <span className="home-text28">3</span>
