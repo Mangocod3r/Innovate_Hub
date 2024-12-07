@@ -179,7 +179,7 @@ const Home = (props) => {
             animate={{ opacity: 1 }}
             transition={{ delay: 1.5, duration: 1.5 }}
           >
-            <span className="home-text11 beforeHeading">ENTREPRENUER</span>
+            <span className="home-text11 beforeHeading">NON PROFIT ORGANISATION</span>
             <h1 className="home-text12">
               {}
               {}
