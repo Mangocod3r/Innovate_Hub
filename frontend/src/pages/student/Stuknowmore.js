@@ -121,18 +121,18 @@ export default function Stuknowmore() {
                             <p className='prob_text'>
                                 {card.description}
                             </p>
-                            // {card.p1 && (
-                            <div>
-                                <h4 style={{ color: "#0056F1" }}>Event Location: </h4>
-                                <p>{card.p1}</p>
-                            </div>
-                            <div>
-                                <h4 style={{ color: "#0056F1" }}>Time: </h4>
-                                <p>{card.p2}</p>
-                            </div>
-
-                        // )}
-
+                        {card.p1 && (
+                            <>
+                                <div>
+                                    <h4 style={{ color: "#0056F1" }}>Event Location: </h4>
+                                    <p>{card.p1}</p>
+                                </div>
+                                <div>
+                                    <h4 style={{ color: "#0056F1" }}>Time: </h4>
+                                    <p>{card.p2}</p>
+                                </div>
+                            </>
+                        )}
                         {card.overview && (
                             <div className="embed-container" style={{ marginTop: '1rem' }}>
                                 <h5 style={{ color: "#0056F1" }}>Location Details:</h5>
