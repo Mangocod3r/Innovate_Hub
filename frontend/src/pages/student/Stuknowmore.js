@@ -123,15 +123,9 @@ export default function Stuknowmore() {
                             </p>
                             {card.overview && (
                             <div className="embed-container" style={{ marginTop: '1rem' }}>
-                                <iframe
-                                    src={card.overview}
-                                    width="100%"
-                                    height="300"
-                                    style={{ border: 0 }}
-                                    allowFullScreen=""
-                                    loading="lazy"
-                                    referrerPolicy="no-referrer-when-downgrade"
-                                />
+                               <a href={card.overview} target="_blank" rel="noopener noreferrer">
+                                  View on Google Maps
+                                </a>
                             </div>
                         )}
 
