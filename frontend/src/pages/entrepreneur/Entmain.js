@@ -155,11 +155,11 @@ export default function Entmain() {
     return (
       <p className="no"><em>No hosted Events yet</em>
         <div>
-          <span>Upload
+          <span>Host an Event
             <Link to='/upload'>
               <span style={{ textDecoration: 'none' }} className='link'><b> HERE </b></span>
             </Link>
-            to host an Event</span>
+          </span>
         </div>
       </p>
     );
