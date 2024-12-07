@@ -153,13 +153,13 @@ export default function Entmain() {
 
   if (post.length === 0) {
     return (
-      <p className="no"><em>No existing projects yet </em>
+      <p className="no"><em>No hosted Events yet</em>
         <div>
           <span>Upload
             <Link to='/upload'>
               <span style={{ textDecoration: 'none' }} className='link'><b> HERE </b></span>
             </Link>
-            to start your journey</span>
+            to host an Event</span>
         </div>
       </p>
     );
