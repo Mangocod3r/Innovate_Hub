@@ -368,16 +368,15 @@ const Home = (props) => {
           <div className="home-banner">
             <span className="home-text46 beforeHeading3">get started</span>
             <h1 className="home-text47">
-              <span>Push your minds to</span>
+              <span>Empower your community by</span>
               <br></br>
               <span></span>
               <span></span>
-              <span> the next level.</span>
+              <span> making a difference.</span>
             </h1>
             <span className="home-text53">
               <span>
-                Unleash your potential and turn your ideas into reality with
-                Innovate Hub{" "}
+                Unlock new opportunities and create lasting change with Innovate Hub{" "}
                 <span
                   dangerouslySetInnerHTML={{
                     __html: " ",
@@ -386,7 +385,7 @@ const Home = (props) => {
               </span>
               <br></br>
               <span>
-                the ultimate innovation hub for students and entrepreneurs{" "}
+               the ultimate platform for volunteers, event organizers, and sponsors{" "}
                 <span
                   dangerouslySetInnerHTML={{
                     __html: " ",
