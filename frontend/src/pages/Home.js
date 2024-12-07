@@ -210,13 +210,9 @@ const Home = (props) => {
               {}
             </h1>
             <span className="home-text21">
-              Unlock your potential and take the first step towards your
-              entrepreneurial journey! Join our platform designed exclusively
-              for students, where you can explore innovative projects, submit
-              your ideas, and learn from experienced entrepreneurs. Collaborate
-              with like-minded individuals, gain valuable insights and transform
-              your ideas into reality!
-            </span>
+  Are you passionate about making a difference? Join our platform where volunteers can explore various non-profit service events, express interest, and get involved in causes that matter to you. Connect with organizations, offer your time and skills, and contribute to meaningful projects that impact communities. Take the first step towards being part of something greater today!
+</span>
+
             <div className="home-container03">
               <button className="my-button bb blue">See how</button>
             </div>
