@@ -153,10 +153,10 @@ export default function BasicExample({ darkMode }) {
                 Home
               </Nav.Link>
               <Nav.Link href="/stu_ideas" style={{ textDecoration: "none" }}>
-                My ideas
+                My Events
               </Nav.Link>
               <NavDropdown
-                title="Projects Category"
+                title="Event Categories"
                 style={{
                   textDecoration: "none",
                   backgroundColor: "#0056D2",
@@ -321,10 +321,10 @@ export default function BasicExample({ darkMode }) {
               </Nav.Link>
               {/* <Nav.Link href="/">My Projects</Nav.Link> */}
               <Nav.Link style={{ textDecoration: "none" }} href="/upload">
-                Upload a problem
+                New Event
               </Nav.Link>
               <Nav.Link style={{ textDecoration: "none" }} href="/ent_prop">
-                Propose a investment
+                Search Sponsers
               </Nav.Link>
             </Nav>
 
