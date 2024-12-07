@@ -120,7 +120,7 @@ export default function Entprop() {
                 <div className="input-data" >
                   <Form.Control type="text" required name="projectName" value={proposal.projectName} onChange={handleChange} />
                   <div className="underline"></div>
-                  <label for="">Project Title</label>
+                  <label for="">Event Title</label>
                 </div>
                 <div className="input-data">
                 <Form.Control type="text" required name="amount" value={proposal.amount} onChange={handleChange} />
@@ -138,7 +138,7 @@ export default function Entprop() {
                   </textarea>
                   <br />
                   <div className="underline"></div>
-                  <label for="">Proposal</label>
+                  <label for="">Event Proposal</label>
                   <br />
 
                   {}
