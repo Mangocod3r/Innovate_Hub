@@ -43,7 +43,7 @@ export default function Stuideas() {
             <div className="display-5 text-center">
               <Link to={`/stu_view_idea/${cats.title}`}>
                 <button className="my-button bb blue" style={{ borderRadius: '1.5rem' }}>
-                  <p style={{ fontSize: '16px' }} className="mt-2">SEE YOUR IDEA</p>
+                  <p style={{ fontSize: '16px' }} className="mt-2">Details of Event</p>
                 </button>
               </Link>
             </div>
@@ -55,13 +55,13 @@ export default function Stuideas() {
 
   if (catsuniq.length === 0) {
     return (
-      <p className="no"><em>No ideas yet submitted</em>
+      <p className="no"><em>No Events yet enrolled</em>
         <div>
           <span> Click
             <Link to='/'>
               <span style={{ textDecoration: 'none' }} className='link'><bold> HERE </bold></span>
             </Link>
-            to start exploring available projects</span>
+            to start exploring available Events</span>
         </div>
       </p>
     );
