@@ -48,7 +48,7 @@ export default function Stuviewidea() {
             </span>
           </div>
 
-          <h3 className="mb-4 " style={{ color: '#0056F2' }}> YOUR IDEA</h3>
+          <h3 className="mb-4 " style={{ color: '#0056F2' }}> VIEW EVENT DETAILS</h3>
 
           <p className="overview_text">
             {cats.my_idea}
