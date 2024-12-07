@@ -121,6 +121,20 @@ export default function Stuknowmore() {
                             <p className='prob_text'>
                                 {card.description}
                             </p>
+                            {card.overview && (
+                            <div className="embed-container" style={{ marginTop: '1rem' }}>
+                                <iframe
+                                    src={card.overview}
+                                    width="100%"
+                                    height="300"
+                                    style={{ border: 0 }}
+                                    allowFullScreen=""
+                                    loading="lazy"
+                                    referrerPolicy="no-referrer-when-downgrade"
+                                />
+                            </div>
+                        )}
+
                             <div className="text-right">
                                 <i className="bi bi-calendar-plus prob_text" >
                                     {card.start}
