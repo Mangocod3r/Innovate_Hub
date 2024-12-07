@@ -50,7 +50,8 @@ export default function Entresp() {
     const id = cats[index]._id;
     const updatedData = {
       ...cats[index],
-      status: "accepted"
+      status: "accepted",
+      investor: user.name 
     };
     try {
       const amount = prompt("Enter the amount of money to invest:");
@@ -82,7 +83,8 @@ export default function Entresp() {
     const id = cats[index]._id;
     const updatedData = {
       ...cats[index],
-      status: "rejected"
+      status: "rejected",
+      investor: user.name 
     };
     try {
       const response = await fetchWithAuth(`${process.env.REACT_APP_API_HOST}/api/investment-requests/${id}`, {
