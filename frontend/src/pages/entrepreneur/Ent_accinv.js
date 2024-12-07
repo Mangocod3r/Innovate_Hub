@@ -57,7 +57,7 @@ console.log(post)
             <div className="col">
               <img src={cats.img} alt="" className="img-fluid p-4" style={{ borderRadius: '2.5rem' }} />
             </div>
-            <p className="overview_text">By {cats.name}</p>
+            <p className="overview_text">By {cats.investor}</p>
           </div>
         </div>
       </td>
