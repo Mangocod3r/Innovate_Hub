@@ -113,7 +113,7 @@ const Home = (props) => {
         <div className="home-max-width1 max-width">
           <div className="home-content">
             <h1 className="home-title">
-              <span>Empowering Non-Profit Organizations, Investors, and Government Agencies to </span>
+              <span>Empowering Non-Profit Org, Investors, and Government Agencies to </span>
               <br></br>
               {}
               {}
