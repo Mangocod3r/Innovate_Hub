@@ -118,14 +118,14 @@ const Home = (props) => {
               {}
               {}
               <TypingText
-                words={["Collaborate", "Innovate", "Succeed"]}
+                words={["Team Up", "Make it Happen", "Inspire Change"]}
                 typingSpeed={50}
                 startDelay={1000}
                 backDelay={1000}
                 loop={true}
                 loopCount={Infinity}
               />
-              <span> Together</span>
+              
             </h1>
             <span className="home-description">
   Connect with non-profit organisations, volunteers, and Sponsors to create impactful solutions, collaborate on meaningful initiatives, and drive positive change in communities and industries. 
