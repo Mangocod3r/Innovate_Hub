@@ -31,7 +31,7 @@ export default function Stumain() {
         return (
             <div className="col-sm-4">
                 {}
-                <Link to = {/stu_vm/${card.title}} style={{textDecoration:'none'}}>
+                <Link to = {`/stu_vm/${card.title}`} style={{textDecoration:'none'}}>
                     <div className="text-center shadow p-3 mb-5 bg-white rounded box">
                         <img
                             src={card.img}
