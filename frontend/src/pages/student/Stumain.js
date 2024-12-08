@@ -28,27 +28,35 @@ export default function Stumain() {
     }, []);
 
     const renderCard = (card, index) => {
-        return (
-            <div className="col-sm-4">
-                {}
-                <Link to = {`/stu_vm/${card.title}`} style={{textDecoration:'none'}}>
-                    <div className="text-center shadow p-3 mb-5 bg-white rounded box">
+    return (
+        <div className="col-sm-4" key={index} style={{ paddingBottom: '20px' }}>
+            <Link to={`/stu_vm/${card.title}`} style={{ textDecoration: 'none' }}>
+                <div className="card-container shadow-lg p-4 mb-5 bg-white rounded box">
+                    <div className="img-wrapper">
                         <img
                             src={card.img}
                             className="img-fluid"
-                            alt=""
+                            alt={card.title}
+                            style={{ borderRadius: '10px', maxHeight: '200px', objectFit: 'cover' }}
                         />
-                        <div>
-                            <h5>
-                                <span style={{ fontWeight: 600}}>{card.title} </span>
-                            </h5>
-                        </div>
                     </div>
-                    </Link>
-                {}
-            </div>
-        );
-    };
+                    <div className="card-body text-center" style={{ padding: '20px 0' }}>
+                        <h5 style={{ fontWeight: '600', color: '#333' }}>
+                            {card.title}
+                        </h5>
+                        <p style={{ fontSize: '14px', color: '#555' }}>
+                            {card.description ? card.description : "Learn more about this category"}
+                        </p>
+                        <button className="btn btn-primary" style={{ marginTop: '10px' }}>
+                            Explore
+                        </button>
+                    </div>
+                </div>
+            </Link>
+        </div>
+    );
+};
+
 
     return (
         <>
