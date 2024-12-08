@@ -183,14 +183,14 @@ useEffect(() => {
                 <option value="Educational">Educational</option>
                 <option value="Fundraising">Fundraising</option>
                 <option value="Networking">Networking</option>
-                <option value="Conferences/Conventions">Conferences/Conventions</option>
+                <option value="Conferences or Conventions">Conferences or Conventions</option>
                 <option value="Cultural & Arts">Cultural & Arts</option>
                 <option value="Community Engagement">Community Engagement</option>
                 <option value="Health and Wellness">Health and Wellness</option>
                 <option value="Celebratory">Celebratory</option>
                 <option value="Environmental">Environmental</option>
-                <option value="Holiday/Seasonal">Holiday/Seasonal</option>
-                <option value="Volunteer Days/Service Projects">Volunteer Days/Service Projects</option>
+                <option value="Holiday or Seasonal">Holiday or Seasonal</option>
+                <option value="Volunteer Days or Service Projects Awarness">Volunteer Days or Service Projects</option>
                 <option value="Awareness">Awareness</option>
                 <option value="Charity Sports">Charity Sports</option>
               </Form.Select>
